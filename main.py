@@ -163,7 +163,7 @@ class FlappyGame(arcade.Window):
 
         if self.state == GameState.START:
             arcade.draw_text(
-                "Happy Flappy Duck :D",
+                "Flappy Duck",
                 SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + 40,
                 arcade.color.WHITE, 40, anchor_x="center"
             )
